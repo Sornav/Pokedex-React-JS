@@ -1,0 +1,557 @@
+{
+  "xs": {
+    "root": true,
+    "alignment": "vertical",
+    "spacing": "5",
+    "width": "100%",
+    "height": "100%",
+    "content": [
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          }
+        ]
+      },
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "25%",
+            "height": "100%"
+          }
+        ]
+      }
+    ]
+  },
+  "sm": {
+    "root": true,
+    "alignment": "vertical",
+    "spacing": "5",
+    "width": "100%",
+    "height": "100%",
+    "content": [
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      },
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      }
+    ]
+  },
+  "md": {
+    "root": true,
+    "alignment": "vertical",
+    "spacing": "5",
+    "width": "100%",
+    "height": "100%",
+    "content": [
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      },
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      }
+    ]
+  },
+  "lg": {
+    "root": true,
+    "alignment": "vertical",
+    "spacing": "7",
+    "width": "100%",
+    "height": "100%",
+    "content": [
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      },
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      }
+    ]
+  },
+  "xl": {
+    "root": true,
+    "alignment": "vertical",
+    "spacing": "5",
+    "width": "100%",
+    "height": "100%",
+    "content": [
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      },
+      {
+        "height": "50%",
+        "width": "100%",
+        "alignment": "horizontal",
+        "content": [
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          },
+          {
+            "component": "pokemon_card",
+            "width": "10%",
+            "height": "100%"
+          }
+        ]
+      }
+    ]
+  }
+}
