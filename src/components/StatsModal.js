@@ -6,11 +6,13 @@ import Fade from "@material-ui/core/Fade";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import { Typography } from "@material-ui/core";
 import { Paper } from "@material-ui/core";
+import SVG from "react-inlinesvg";
+import { Skeleton } from "@material-ui/lab";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
     margin: "auto",
-    height: "40vh",
+    height: "42vh",
     width: "50vw",
   },
   paper: {
@@ -23,15 +25,15 @@ const useStyles = makeStyles((theme) => ({
   },
   contentArea: {
     display: "grid",
-    gridTemplateRows: "auto auto auto auto auto",
+    gridTemplateRows: "14vh auto auto auto auto auto",
     width: "100%",
-    height: "30vh",
+    height: "39vh",
     overflow: "hidden",
-    paddingTop: "7vh",
+    paddingTop: "1vh",
   },
   Item: {
     display: "grid",
-    gridTemplateColumns: "12.5vw 21vw 3vw ",
+    gridTemplateColumns: "12.5vw 21vw 3vw",
     width: "100%",
     height: "100%",
     overflow: "hidden",
@@ -52,7 +54,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function TransitionsModal({ open, handleClose, data, width }) {
+export default function TransitionsModal({
+  open,
+  handleClose,
+  data,
+  width,
+  id,
+}) {
   const classes = useStyles();
 
   return (
@@ -70,6 +78,24 @@ export default function TransitionsModal({ open, handleClose, data, width }) {
         <Fade in={open}>
           <div className={classes.paper}>
             <div className={classes.contentArea}>
+              <SVG
+                src={`https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/${id}.svg`}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                loader={
+                  <Skeleton
+                    variant="rect"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      opacity: "1",
+                      borderRadius: "2rem",
+                      color: "grey",
+                    }}
+                    animation="wave"
+                  />
+                }
+                cacheRequests={true}
+              />
               {Object.keys(data).map((value) => {
                 return (
                   <div className={classes.Item}>

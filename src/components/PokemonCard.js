@@ -54,6 +54,7 @@ const PokemonCard = (props) => {
         handleClose={handleClose}
         data={props.data.stats}
         width={props.width}
+        id={props.data.id}
       />
       <Card className={classes.card} onClick={handleOpen}>
         <CardContent className={classes.content}>

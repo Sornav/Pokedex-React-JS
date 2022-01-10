@@ -1,7 +1,6 @@
 {
-  "name": "namup-ke",
+  "name": "Pokedex",
   "version": "1.0.0",
-  "description": "National Missing and Unidentified Persons Kenya",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
@@ -11,8 +10,8 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "Larry Miami",
-  "license": "ISC",
+  "author": "Sornav Bhattacharya",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.1",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
